@@ -9,10 +9,13 @@ import LifeStatus from "../../Components/Common/LifeStatus";
 
 export default function Start() {
 
+  const navigation = useNavigation();
+
   const handleNavAppExplanation = () => {
-    console.log("Testando clique")
+    navigation.navigate("AppExplanation");
      
-  }
+  };
+  
   return (
     <View style={styles.container}>
       <ScrollView showVerticalScrollIndicator={false}>
