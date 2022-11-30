@@ -24,7 +24,7 @@ export default function StatusBar(){
                 />
 
 
-            <ProgressBar progress={1} color={"#85bb65"} style={styles.progress} />
+            <ProgressBar progress={0} color={"#85bb65"} style={styles.progress} />
 
             </View>
 
@@ -35,7 +35,7 @@ export default function StatusBar(){
                 />
 
 
-            <ProgressBar progress={1} color={"#ff0043"} style={styles.progress} />
+            <ProgressBar progress={0} color={"#ff0043"} style={styles.progress} />
 
             </View>
 
