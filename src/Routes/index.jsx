@@ -6,8 +6,8 @@ import HomePage from "./HomePage";
 export default function Routes(){
     const [showHome, setShowHome] = useState("false")
     
-  
-  
+    // Operador condicional, verifica se for true, ele vai iniciar na HomePagem se não vai iniciar na tela Start
+     
     return <>{showHome === "true" ? <HomePage /> : <Allpages/> }</>;  
 }
 
